@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  relationship:
+    image: ${DOCKER_REGISTRY-}relationship
+    build:
+      context: .
+      dockerfile: RelationShip/Dockerfile
